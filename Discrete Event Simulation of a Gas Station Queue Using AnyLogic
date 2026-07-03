@@ -1,0 +1,77 @@
+⛽ Discrete Event Simulation of a Gas Station Queue Using AnyLogic
+
+Overview
+This project presents a **Discrete Event Simulation (DES)** model of a gas station queueing system developed using **AnyLogic Personal Learning Edition**. The simulation is based on **106 observed customer records** to analyze the queueing process, service performance, and customer flow.
+
+Objectives
+- Model the queueing process of a gas station.
+- Analyze customer arrivals and service operations.
+- Evaluate queue performance using Discrete Event Simulation.
+- Understand the behavior of a single-service queueing system.
+
+Tools & Technologies
+- AnyLogic Personal Learning Edition
+- Process Modeling Library
+- Discrete Event Simulation (DES)
+
+Model Structure
+Source
+↓
+Queue
+↓
+Delay (Gas Station Service)
+↓
+Sink
+
+Simulation Parameters
+| Parameter | Value |
+|-----------|--------|
+| Number of Customers | 106 |
+| Queue Capacity | 106 |
+| Service Capacity | 1 |
+| Arrival Type | Rate |
+| Service Time | Triangular Distribution |
+
+Results
+- Successfully simulated **106 customers**.
+- All customers completed the service process.
+- Average queue length remained low.
+- No customers remained in the system at the end of the simulation.
+
+Skills Demonstrated
+- Discrete Event Simulation
+- Queueing Theory
+- AnyLogic Modeling
+- Process Modeling
+- Data Analysis
+- Operations Research
+- Statistical Modeling
+
+Project Preview
+- Simulation Model
+- Running Simulation
+- Performance Analysis
+- Final Report
+
+Repository Structure
+```
+📦 Gas-Station-Queue-Simulation
+│── README.md
+│── Report.pdf
+│── AnyLogic_Model.alp
+│── images/
+│    ├── model.png
+│    └── simulation_result.png
+```
+Author
+Oktaviani Putri
+Statistics Undergraduate Student
+
+Interested in:
+- Data Analytics
+- Data Science
+- Operations Research
+- Simulation Modeling
+- Business Intelligence
+
+If you find this project useful, feel free to star this repository.
